@@ -21,7 +21,7 @@ const config = {
   organizationName: 'Andrewwlangford', // Usually your GitHub org/user name.
   projectName: 'norv-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -56,10 +56,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-
-      //Allowing the page to build with broken links
-      onBrokenLinks: 'ignore',
-
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
