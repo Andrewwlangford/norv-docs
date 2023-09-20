@@ -7,11 +7,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Norv',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Namely Our Resounding inVention',
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://norv.co.uk',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -38,7 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          // routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -59,21 +59,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Documentation',
+        title: '',
         logo: {
           alt: 'Norv Logo',
-          src: 'img/logo.svg',
+          src: 'img/norv-logo-green.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           /* {to: '/blog', label: 'Blog', position: 'left'}, */
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/andrewwlangford/norv-docs/',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,6 +81,7 @@ const config = {
       },
       footer: {
         style: 'dark',
+        /* Norv Comment
         links: [
           {
             title: 'Docs',
@@ -122,7 +123,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        */
+        copyright: `Copyright © ${new Date().getFullYear()} Norv UK Ltd.`,
       },
       prism: {
         theme: lightCodeTheme,
