@@ -60,7 +60,7 @@ const config = {
       //Making Dark Mode the default
       
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
