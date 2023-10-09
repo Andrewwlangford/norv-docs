@@ -56,10 +56,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      //Making Dark Mode the default
+      
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
+
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '',
+        style: 'dark',
         logo: {
           alt: 'Norv Logo',
           src: 'img/norv-logo-green.svg',
